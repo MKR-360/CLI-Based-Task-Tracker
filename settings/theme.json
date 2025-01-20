@@ -1,0 +1,9 @@
+{
+    "table": {
+        "status": {
+            "To Do": "bold red",
+            "Done": "bold green"
+        },
+        "box": "ROUNDED"
+    }
+}
