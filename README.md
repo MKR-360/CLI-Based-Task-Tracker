@@ -35,15 +35,15 @@ Below are some features it provides:
 **Avoid Installation for now still in development stage.**
 1. Clone this repository
 ```
-$ git clone https://github.com/mkr-360/CLI-Based-Task-Tracker.git
-$ cd CLI-Based-Task-Tracker
+git clone https://github.com/mkr-360/CLI-Based-Task-Tracker.git
+cd CLI-Based-Task-Tracker
 
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 2. Make install.sh executable and run
 ```
-$ chmod +x ./install.sh
-$ ./install.sh
+chmod +x ./install.sh
+./install.sh
 ```
 3. Task tracker is now successfully installed. Now you can delete the cloned repository
 
@@ -52,35 +52,35 @@ $ ./install.sh
 ## Usage
 ```
 # To add a single task
-$ task-tracker --add "task1"
+task-tracker --add "task1"
 
 # To add multiple tasks in one go
-$ task-tracker --adds "task1" "task2" "task3" ....... "nth task"
+task-tracker --adds "task1" "task2" "task3" ....... "nth task"
 
 # List all tasks with their status
-$ task-tracker -l
+task-tracker -l
 
 # List all uncompleted 'To Do' tasks
-$ task-tracker -u
+task-tracker -u
 
 # List all completed tasks
-$ task-tracker -c
+task-tracker -c
 
 # Update a single task with its id
-$ task-tracker --update ID1
+task-tracker --update ID1
 
 # Remove a single task with its id
-$ task-tracker --remove ID1
+task-tracker --remove ID1
 
 # To remove all tasks in one go
-$ task-tracker --remove "*"
+task-tracker --remove "*"
 ```
 
 ---
 
 ## Uninstallation
 ```
-$ ~/.task-tracker/uninstall.sh
+~/.task-tracker/uninstall.sh
 ```
 
 ---
